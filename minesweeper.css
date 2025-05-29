@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+}
+
+
+
+main{
+    display:grid;
+    grid-template-columns: repeat(10, 25px);
+    grid-template-rows: repeat(10, 25px);
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    gap:2px;
+    width: 272px;
+    height: 272px;
+}
+
+main div{ /* ez a nem kattintott is! */
+    border: 3px solid black;
+    border-top-color:white;
+    border-left-color:white;
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 170, 170);
+    transition:0.3s;
+}
+
+main div:hover{
+    border:none;
+}
+
+.kattintott{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15pt;
+    border: none;
+
+}
+
+.szam1{
+    color:blue;
+}
+
+.szam2{
+    color:green;
+}
+
+.szam3{
+    color:red;
+}
+
+.szam4{
+    color:purple;
+}
+
+.szam5{
+    color:greenyellow;
+}
+
+.szam6{
+    color:darkblue;
+}
+
+.szam7{
+    color:black;
+}
+
+.szam8{
+    color:magenta;
+}
+
+.akna{
+    background-color: red;
+    font-size:10pt;
+}
+
+
+
+footer{
+    text-align: center;
+}
